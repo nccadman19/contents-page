@@ -3,37 +3,55 @@
   <head>
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: Segoe UI, sans-serif;
       }
       
-    /* Default text color for the table of contents */
-    .toc a {
-    color: #333;
-    text-decoration: none;
-    }
+      .toc-container {
+        border: 1px solid #c6c6c6;
+        background-color: #f2f2f2;
+        padding: 10px;
+        }
 
-    /* Hover style for the table of contents */
-    .toc a:hover {
-    color: #0163ae;
-    background-color: #f2f2f2;
-    text-decoration: none;
-    }
+        .toc {
+        margin: 0;
+        padding: 0;
+        }
 
-    /* Active style for the table of contents */
-    .toc a.active {
-    color: #0163ae;
-    font-weight: bold;
-    }
+        .toc ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
 
-    /* Default text color for headings */
-    h1, h2, h3, h4, h5, h6 {
-    color: #333;
-    }
+        .toc li {
+        margin-bottom: 5px;
+        }
 
-    /* Hover style for headings */
-    h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
-    color: #0163ae;
-    }
+        .toc a {
+        color: #0078d4;
+        text-decoration: none;
+        }
+
+        .toc a:hover {
+        color: #004578;
+        }
+
+        .toc a:active,
+        .toc a:focus {
+        outline: none;
+        color: #333;
+        }
+
+        section {
+        margin-bottom: 20px;
+        }
+
+        section h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ddd;
+        }
 
     </style>
   </head>
